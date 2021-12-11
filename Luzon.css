@@ -30,7 +30,7 @@ header .toggle{
 	position: relative;
 	width: 30px;
 	height: 30px;
-	background: url(./images/menu.png);
+	background: url(menu.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 30px;
