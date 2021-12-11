@@ -1,0 +1,46 @@
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title> more </title>
+	<link rel = "stylesheet" href = "explore.css">
+</head>
+<body>
+     <section class="showcase">
+    <header>
+     <a href = "home_index.html"><img src ="./images/logo2.png" class = "logo"></a>
+      <div class="toggle"></div>
+    </header>
+    <video src="ph6.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>LET ADVENTURE CHASE YOU. </h2> 
+      <h3>WANDER THE AUTHENTICITY </h3>
+      <p>Summer Weather in the Philippines - Friendly  and Warm Filipinos -  Budget-Friendly Destination -  Natural Wonders Unique to the Philippines - Delicious Cuisine - Colorful and Fun Philippine Festivals - 
+	  Exciting Outdoor Adventures - Beaches and Islands</p>
+	  <a href="explore.html"><button type ="button">Explore page</button></a>
+    </div>
+  </section>
+   <div class="menu">
+    <nav>
+     <ul>
+	      <li><a href="home_index.html">HOME</a></li>
+		  <li><a href="About.html">ABOUT</a></li>
+		 <a href="explore.html"><li>EXPLORE</a></li>
+		  <li><a href="contact.html">CONTACT ME</a></li>
+	 </ul>
+	 </nav>
+		 
+	   <script>
+	       const menuToggle = document.querySelector('.toggle')
+		   const showcase = document.querySelector('.showcase')
+		   
+		   menuToggle.addEventListener('click', () => {
+		        menuToggle.classList.toggle('active')
+				showcase.classList.toggle('active')
+		   })
+		   </script>
+		   
+		   
+		   
+  </body>
+</html>

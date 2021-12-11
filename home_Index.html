@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title> Filipino Byahista </title>
+	<link rel = "stylesheet" href = "explore.css">
+</head>
+<body>
+     <section class="showcase">
+    <header>
+     <a href = "home_index.html"><img src ="./images/logo2.png" class = "logo"></a>
+      <div class="toggle"></div>
+    </header>
+    <video src="ph3.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>EXPLORE THE ENGAGING </h2> 
+      <h3>BEAUTY OF THE PHILIPPINES</h3>
+      <p>The Philippines is one of the world’s largest archipelago nations. It is situated in Southeast Asia in the Western Pacific Ocean. 
+	  Its islands are classified into three main geographical areas – Luzon, Visayas, and Mindanao. Because of its archipelagic nature, 
+	  Philippines is a culturally diverse country. With its topography consisting of mountainous terrains, dense forests, plains, and coastal areas,
+	  the Philippines is rich in biodiversity.</p>
+	  <a href="explore.html"><button type ="button">Explore</button></a>
+    </div>
+  </section>
+   <div class="menu">
+    <nav>
+     <ul>
+	      <li><a href="home_index.html">HOME</a></li>
+		  <li><a href="About.html">ABOUT</a></li>
+		  <li><a href="more.html">TRAVEL</a></li>
+		  <li><a href="contact.html">CONTACT ME</a></li>
+	 </ul>
+	 </nav>
+		 
+	   <script>
+	       const menuToggle = document.querySelector('.toggle')
+		   const showcase = document.querySelector('.showcase')
+		   
+		   menuToggle.addEventListener('click', () => {
+		        menuToggle.classList.toggle('active')
+				showcase.classList.toggle('active')
+		   })
+		   </script>
+		   
+		   
+		   
+  </body>
+</html>

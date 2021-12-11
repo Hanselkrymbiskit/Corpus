@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+	<title> Mindanao Philippines </title>
+	<link rel = "stylesheet" href = "Luzon.css">
+</head>
+<body>
+       <section class="showcase">
+    <header>
+	     <a href="home_index.html"><img src ="./images/logo2.png" class="logo"></a>
+         <div class="toggle"></div>
+    </header> 
+    <div class = "slider">
+	    <input type = "radio" name="slider">
+		<div class = "imgbx">
+		<img src = "./images/enchan.jpg">
+		<div class="content">
+		  <h2>ENCHANTED RIVER</h2>
+		  <p>Located on the island of Mindanao, hidden in the Philippine jungle is a majestic river that appears to pop out of the ground just to send its crystal clear blue waters out to sea. 
+		  It is said to be enchanted ‘because no one has ever reached its bottom.’ Despite the fact that many people have already tried to reach the bottom including scuba divers, all of them failed. Hence the start of the legend of its bottomless pit.</p>
+		       <a href="explore.html">EXPLORE</a>
+		   </div>
+       </div>
+	   <input type = "radio" name="slider">
+		<div class = "imgbx">
+		<img src = "./images/cami.jpg">
+		<div class="content">
+		  <h2>CAMINGUIN ISLAND</h2>
+		  <p>The second smallest island in the country is jam-packed with all sorts of sights. Getting there may be challenging as there are no direct flights, but you can easily go around the province for less than a few thousand.
+		  Food is relatively cheap as well. </p>
+		       <a href="explore.html">EXPLORE</a>
+		   </div>
+       </div>
+	   <input type = "radio" name="slider">
+		<div class = "imgbx">
+		<img src = "./images/bukid.jpg">
+		<div class="content">
+		  <h2>BUKIDNON</h2>
+		  <p>Bukidnon’s stunning natural visual and delicious fruits are something everyone must see and taste which the latter is relatively cheap there. 
+		  What makes it different from other tourist destinations in the country is that most people visit this province for its rolling hills and vast highlands. </p>
+		       <a href="">EXPLORE</a>
+		   </div>
+       </div>
+	   <input type = "radio" name="slider">
+		<div class = "imgbx">
+		<img src = "./images/sebu.jpg">
+		<div class="content">
+		  <h2>LAKE SEBU</h2>
+		  <p>This place is often called the Summer Capital of Southern Philippines because of the cool climate. 
+		  Lake Sebu is surrounded by stunning views which is why it’s the perfect spot for photography lovers.</p>
+		       <a href="explore.html">EXPLORE</a>
+		   </div>
+       </div>
+	   <input type = "radio" name="slider">
+		<div class = "imgbx">
+		<img src = "./images/siarg.jpg">
+		<div class="content">
+		  <h2>SIARGAO</h2>
+		  <p>Siargao island is known to be the best place in the Philippines to do some surfing. It’s one of the most popular tourist spots in Mindanao and the whole country.
+		  You can rent a motorcycle for a very reasonable price and roam around the island of Siargao. You will surely enjoy your stay here because the island is not crowded compared to other islands in the Philippines.
+		  You can try different types of local dishes and shop for souvenirs at the same time.</p>
+		       <a href="explore.html">EXPLORE</a>
+		   </div>
+       </div>
+	 </div>  
+	</section> 
+	 <div class="menu">
+    <nav>
+     <ul>
+	      <li><a href="home_index.html">HOME</a></li>
+		  <li><a href="About.html">ABOUT</a></li>
+		  <li><a href="more.html">TRAVEL</a></li>
+		  <a href="explore.html"><li>EXPLORE</a></li>
+		    <li><a href="contact.html">CONTACT ME</a></li>
+	 </ul>
+	 </nav>
+	 
+	  <script>
+	       const menuToggle = document.querySelector('.toggle')
+		   const showcase = document.querySelector('.showcase')
+		   
+		   menuToggle.addEventListener('click', () => {
+		        menuToggle.classList.toggle('active')
+				showcase.classList.toggle('active')
+		   })
+		   </script>
+</body>
+</html>
